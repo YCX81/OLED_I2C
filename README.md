@@ -1,7 +1,7 @@
-### 中文版 ReadMe
+# U8g2移植STM32F103C8T6，使用硬件iic通过DMA发送，HAL库编写，测试程序为移动方块并实时显示FPS
 
 #### 项目分析
-该项目设计用于通过STM32微控制器（具体为STM32F103C8T6）控制OLED显示屏，使用U8g2库来管理图形显示任务。
+该项目设计用于通过STM32F103C8T6控制OLED显示屏，使用U8g2库来管理图形显示任务。
 
 #### 主要组件：
 1. **OLED显示屏**：基于SSD1306芯片，通过I2C与STM32通信。
@@ -19,7 +19,7 @@
 ### English Version ReadMe
 
 #### Project Analysis
-This project is designed to control an OLED display using an STM32 microcontroller (specifically STM32F103C8T6), with the U8g2 library handling graphical display tasks.
+This project is designed to control an OLED display using STM32F103C8T6, with the U8g2 library handling graphical display tasks.
 
 #### Key Components:
 1. **OLED Display**: Based on the SSD1306 chip, it communicates with the STM32 via I2C.
